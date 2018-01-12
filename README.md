@@ -47,7 +47,7 @@ Assign correct **'install name'** to the two .dylib symlinks in order to avoid a
 
 `$ install_name_tool -id "/opt/intel/mklml/lib/libmklml.dylib" /usr/local/lib/libmklml.dylib`
 
-`$ install_name_tool -id "/opt/intel/mklml/lib/libiomp5.dylib" /usr/local/lib/libiomp5 .dylib`
+`$ install_name_tool -id "/opt/intel/mklml/lib/libiomp5.dylib" /usr/local/lib/libiomp5.dylib`
 
 Download and extract Tensorflow:
 
